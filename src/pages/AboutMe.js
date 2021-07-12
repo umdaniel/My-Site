@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/profile.jpg';
+import AboutImg from '../assets/images/profile3.PNG';
 import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
 
@@ -92,14 +92,16 @@ export default function AboutMe() {
                                 Fairfax, Virginia.
                                 <br /><br />
                                 I started coding Junior year at James Madison University
-                                after switching from Healt Sciences. I immediately fell
+                                after switching from Health Sciences. I immediately fell
                                 in love with what Computer Science had to offer.
                                 <br /><br />
                                 My vision is to create elegant user friendly interfaces
                                 for all individuals to enjoy and admire.
                             </PText>
                         </div>
-                        <Button btnText="Download Resume" btnLink="#"/>
+                        <Button btnText="Download Resume" btnLink="#">
+                            <a href="../assets/resume/Resume2021.pdf" download="Resume2021.pdf" />
+                        </Button>
                     </div>
                     <div className="right">
                         <img src={AboutImg} alt="my profile"/>

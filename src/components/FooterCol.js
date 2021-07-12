@@ -9,7 +9,7 @@ const ColStyles = styled.div`
     margin-bottom: 2rem;
 }
 li {
-   margin-bottom: 2rem; 
+   margin-bottom: 2rem;
 }
 a {
     font-size: 1.8rem;

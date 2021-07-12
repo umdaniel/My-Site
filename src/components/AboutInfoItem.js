@@ -4,7 +4,7 @@ import PText from './PText';
 import styled from 'styled-components';
 
 const AboutItemStyles = styled.div`
-displayed: flex;
+display: flex;
 align-items: center;
 justify-content: flex-start;
 margin-top: 3rem;
@@ -17,7 +17,7 @@ position: relative;
     display: flex;
     gap: 1.5rem;
     position: absolute;
-    left: 10rem;
+    left: 30rem;
 }
 .item {
     background-color: var(--deep-dark);

@@ -4,8 +4,10 @@ import ProjectImg from '../images/project.jpg';
 import FarmingImg from '../images/verticalfarming.jpg';
 import ChatImg from '../images/chat.jpg';
 import MemoriesImg from '../images/mems.jpg';
-import BlogImg from '../images/blog.jpg';
+import BarberImg from '../images/barber.jpg';
 import EdenImg from '../images/eden.jpg';
+import CinemaImg from '../images/cinema.jpg';
+import PortfolioImg from '../images/portfolio.jpg';
 
 const projects = [
   {
@@ -31,17 +33,31 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Community",
+    name: "John's Barber",
     desc:
-      'A web application similar to Instagram and Facebook, where individuals can post messages, images, and more.',
-    img: BlogImg,
+      'A web application designed to show case a local barber shop in Centreville, Virginia.',
+    img: BarberImg,
   },
   {
     id: uuidv4(),
-    name: "Eden Medicines",
+    name: "Revivals Medicines",
     desc:
-      'A website created for a local Chinese Medicinal Store located in Annandale, Virginia. Individuals can purchase different types of herbal medicines and more.',
+      'A website created for a local Chinese Medicinal Store located in Falls Church, Virginia. Individuals can purchase different types of herbal medicines and more.',
     img: EdenImg,
+  },
+  {
+    id: uuidv4(),
+    name: "Danny's Portfolio",
+    desc:
+      'A portfolio website for a Computer Information Systems undergraduate attending James Madison University.',
+    img: PortfolioImg,
+  },
+  {
+    id: uuidv4(),
+    name: "In the Seats",
+    desc:
+      'A movie and television web application created using a movie database. Users can browse and search all trending movies and television series.',
+    img: CinemaImg,
   },
 ];
 

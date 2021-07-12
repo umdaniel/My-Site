@@ -24,7 +24,7 @@ padding: 10rem 0;
 .swiper-button-prev,
 .swiper-button-next
 {
-    position: abolute;
+    position: absolute;
     height: 50px;
     width: 50px;
     background-color: var(--deep-dark);
@@ -71,7 +71,7 @@ export default function ProjectsSection() {
                     navigation
                     >
                         {projects.map((project, index) => {
-                        if (index >= 5) return;
+                        if (index >= 7) return;
                         return (
                             <SwiperSlide key={project.id}>
                                 <ProjectItem

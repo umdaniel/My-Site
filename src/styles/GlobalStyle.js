@@ -7,9 +7,9 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
+    --dark-bg: #1b1831;
     --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
+    --deep-dark: #222742;
     --gray-2: #363636;
     --white : white;
     --black: black;
@@ -31,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
     object-fit: cover;
   }
   button{
-    outline: none
+    outline: none;
   }
   .container {
     max-width: 1200px;

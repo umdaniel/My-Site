@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
 import Button from './Button';
-import AboutImg from '../assets/images/profile.jpg';
+import AboutImg from '../assets/images/profile2.png';
 
 const AboutSectionStyle = styled.div`
 padding: 10rem 0;
@@ -18,12 +18,14 @@ padding: 10rem 0;
 .aboutSection__right {
     flex: 1;
 }
+
 .section-title {
     text-align: left;
 }
 .para {
     margin-top: 2rem;
     margin-left: 0;
+    line-height: 1;
 }
 .aboutSection__buttons {
     display: flex;
@@ -53,7 +55,7 @@ padding: 10rem 0;
         margin-top: 3rem;
     }
     .section-title {
-        .text-align: center;
+        text-align: center;
     }
     .para {
         margin: 0 auto;
@@ -92,7 +94,7 @@ export default function AboutSection() {
                         <Button btnLink="/about" btnText="Read More" outline />
                     </div>
                 </div>
-                <div classNam="aboutSection__right">
+                <div className="aboutSection__right">
                     <img src={AboutImg} alt="" />
                 </div>
             </div>

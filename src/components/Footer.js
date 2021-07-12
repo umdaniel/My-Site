@@ -24,7 +24,7 @@ background-color: var(--deep-dark);
     margin-bottom: 1rem;
 }
 .copyright {
-    backgroud-color: var(--dark-bg);
+    background-color: var(--dark-bg);
     text-align: left;
     padding: 1rem 0;
     margin-top: 5rem;

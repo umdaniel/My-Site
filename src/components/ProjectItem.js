@@ -40,11 +40,11 @@ const ProjectItemStyles = styled.div`
 export default function ProjectItem({
     img= projectImg,
     title= "Project Name",
-    desc= "Stuff."
+    desc= "Project Description."
 }) {
     return (
         <ProjectItemStyles>
-            <Link to="/projects" className="projectItem__img">
+            <Link to="/https://github.com/umdaniel" className="projectItem__img">
                 <img src={img} alt="projects" />
             </Link>
             <div className="projectItem__info">
