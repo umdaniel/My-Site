@@ -1,6 +1,6 @@
 # Dan's Portfolio Website 2021
 
-My name is Daniel Um and this is my portfolio website with information about me and my most recent projects!
+My name is Daniel Um and this is my portfolio website with information about me and my most recent projects! (With more projects to come!)
 
 I am an aspiring Front-End Software Engineer situated in Fairfax, Virginia. 
 
