@@ -26,7 +26,7 @@ margin-top: 2rem;
 
 export default function Button({
 
-    btnLink = 'test',
+    btnLink = '/contact',
     btnText = 'Test',
     outline = false,
     
