@@ -83,8 +83,8 @@ export default function AboutSection() {
                     heading="About me"
                     />
                     <PText>
-                        I am a Front-End Software Engineer from Fairfax,
-                        Virginia. I create professional websites with elegant
+                        I am a Front-End Software Engineer from the Washington-DC Baltimore area,
+                        I create professional websites with elegant
                         user interfaces and clean code. In my spare time I like
                         to Amateur Powerlift and explore different types of cuisines.
                     </PText>
