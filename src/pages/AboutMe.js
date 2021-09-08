@@ -3,7 +3,6 @@ import React from 'react'
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/profile3.PNG';
 import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
@@ -15,6 +14,17 @@ padding: 20rem 0 10rem 0;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+.resume {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    padding: 2rem;
+    border-color: white;
+}
+a:hover {
+    color: blue;
 }
 .left {
     flex: 3;
@@ -99,9 +109,9 @@ export default function AboutMe() {
                                 for all individuals to enjoy and admire.
                             </PText>
                         </div>
-                        <Button btnText="Download Resume" btnLink="#">
-                            <a href="../assets/resume/Resume2021.pdf" download="Resume2021.pdf" />
-                        </Button>
+                        <div className="resume">
+                            <a href="../assets/resume/DanielUmResume2021.pdf" download="DanielUmResume2021.pdf">Download Resume</a>
+                        </div>
                     </div>
                     <div className="right">
                         <img src={AboutImg} alt="my profile"/>
