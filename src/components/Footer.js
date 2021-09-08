@@ -65,7 +65,7 @@ export default function Footer() {
                         University. 
                         Passionate about front-end software development, web
                         development, elegant user interfaces, and clean code.
-                        Currently residing in Fairfax, Virginia.
+                        Currently residing in the Washington-DC Baltimore area.
                     </PText>
                 </div>
                 <div className="footer__col2">
@@ -118,7 +118,12 @@ export default function Footer() {
                         [
                             {
                                 title: 'GitHub',
-                                path: 'https://github.com/umdaniel',
+                                path: "https://github.com/umdaniel",
+                                type: 'Links'
+                            },
+                            {
+                                title: 'LinkedIn',
+                                path: "https://www.linkedin.com/in/daniel-um-688b45179/",
                                 type: 'Links'
                             },
                         ]
@@ -128,7 +133,7 @@ export default function Footer() {
             </div>
             <div className="copyright">
                 <div className="container">
-                    <PText>2021 - Daniel Um | Desgined By Daniel Um</PText>
+                    <PText>2021 - Daniel Um</PText>
                 </div>
             </div>
         </FooterStyles>
