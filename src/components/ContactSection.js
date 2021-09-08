@@ -46,7 +46,7 @@ padding: 10rem 0;
         max-width: 100%;
     }
     .right {
-        paddding: 4rem 2rem 2rem 2rem;
+        padding: 4rem 2rem 2rem 2rem;
     }
 }
 `;
@@ -68,7 +68,6 @@ export default function ContactSection() {
                         icon={ <MdEmail />}
                         text="umdaniel12@gmail.com"
                         />
-                        <ContactInfoItem text="Fairfax, Virginia"/>
                     </div>
                     <div className="right">
                         <ContactForm />
