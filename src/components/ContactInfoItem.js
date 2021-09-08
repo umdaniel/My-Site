@@ -6,7 +6,7 @@ import PText from './PText';
 
 const ItemStyles = styled.div`
 padding: 2rem;
-backgroind-color: var(--deep-dark);
+background-color: var(--deep-dark);
 display: flex;
 align-items: center;
 gap: 2rem;
@@ -27,7 +27,7 @@ svg {
 
 export default function ContactInfoItem({
     icon = <MdPlace />,
-    text = 'this is an info',
+    text = 'this is info',
 }) {
     return (
         <ItemStyles>
