@@ -20,7 +20,7 @@ const HeroStyles = styled.div`
 }
 .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-bottom: -1rem;
     position: relative;
     span {
         display: inline-block;
@@ -40,7 +40,6 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
 }
 .hero__info {
-    margin-top: -10rem;
     font-weight: 700;
 }
 .hero__scrollDown {
@@ -113,7 +112,7 @@ export default function HeroSection() {
                         University. 
                         Passionate about front-end software development, web
                         development, elegant user interfaces, and clean code.
-                        I currently reside in both Fairfax and Harrisonburg, Virginia.
+                        I currently reside in the Washington-DC Baltimore area.
                     </PText>
                     <Button btnLink="/projects" btnText="see my work">    
                     </Button>
