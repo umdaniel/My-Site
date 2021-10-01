@@ -6,6 +6,7 @@ import PText from '../components/PText';
 import AboutImg from '../assets/images/profile3.PNG';
 import ContactBanner from '../components/ContactBanner';
 import Footer from '../components/Footer';
+import ResumeFile from '../assets/resume/DanielUmResume2021VA.pdf';
 
 const AboutPageStyles = styled.div`
 padding: 20rem 0 10rem 0;
@@ -110,7 +111,7 @@ export default function AboutMe() {
                             </PText>
                         </div>
                         <div className="resume">
-                            <a href="../assets/resume/DanielUmResume2021.pdf" download="DanielUmResume2021.pdf">Download Resume</a>
+                            <a download href={ResumeFile}>Download Resume</a>
                         </div>
                     </div>
                     <div className="right">
